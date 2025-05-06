@@ -20,3 +20,14 @@ public:
 
 };
 
+void manusia::showNilaiPelajar(pelajar &x)
+{
+    cout << x.nilai;
+}
+int main()
+{
+    manusia budi;
+    pelajar pbudi;
+    mhs.showNilaiPelajar(pbudi);
+    return 0;
+};
