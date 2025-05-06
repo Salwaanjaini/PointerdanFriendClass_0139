@@ -39,5 +39,17 @@ public:
     return 3.14 * r * r;
    }
    
-
 };
+
+int main ()
+{
+    PersegiPanjang objekPP; // membuatobjek
+    Lingkaran ol;
+
+    cout << "Masukkan Panjang : ";
+    cin >> objekPP.panjang;
+    cout << "Masuukkan Lebar : ";
+    cin >> objekPP.lebar;
+    cout << "Luas Persegi Panjang : "<<
+    objekPP.luasPp(objekPP.panjang,objekPP.lebar) << endl;
+}
